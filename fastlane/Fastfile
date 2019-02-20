@@ -26,10 +26,9 @@ platform :android do
   end
 
   lane :push_hocky do
-    path_apk = "jobs/app pipeline/jobs/aaaaa/workspace/app/build/outputs/apk/debug/app-debug.apk"
     hockey(
       api_token: "4bac0a6e9f054038bbb899acf442d08a",
-      apk: "/jobs/app pipeline/jobs/aaaaa/workspace/app/build/outputs/apk/debug/app-debug.apk",
+      apk: "jobs/app\ pipeline/jobs/aaaaa/workspace/app/build/outputs/apk/debug/app-debug.apk",
       notes: "Changelog"
     )
 
