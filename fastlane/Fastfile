@@ -27,7 +27,7 @@ platform :android do
 
   lane :push_hocky do
     hockey(
-      api_token: "c70295715ae6458aaeb4b38921af0232",
+      api_token: "d42541c4079e46698975fdda642a3de2",
       apk: "/var/jenkins_home/jobs/app\ pipeline/jobs/aaaaa/workspace/app/build/outputs/apk/debug/app-debug.apk",
       notes: "init app"
     )
