@@ -28,7 +28,7 @@ platform :android do
   lane :push_hocky do
     hockey(
       api_token: "4bac0a6e9f054038bbb899acf442d08a",
-      apk: "jobs/app\ pipeline/jobs/aaaaa/workspace/app/build/outputs/apk/debug/app-debug.apk",
+      apk: "./sdvsdvsvjobs/app\ pipeline/jobs/aaaaa/workspace/app/build/outputs/apk/debug/app-debug.apk",
       notes: "Changelog"
     )
 
